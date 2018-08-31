@@ -1,0 +1,4 @@
+{
+	  "fileUris": ["https://raw.githubusercontent.com/emcconsulting/AzureStackDemo/master/Mean/IAAS/config/configure-linux-vm01.sh?token=ABjUC7OS8d7oH3tg9B-vRGO4IkHwBHe9ks5bkuzwwA%3D%3D"],
+	    "commandToExecute": "sudo sh configure-linux-vm01.sh"
+}

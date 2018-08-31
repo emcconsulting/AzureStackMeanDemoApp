@@ -1,0 +1,72 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus2"
+        },
+        "virtualMachineName": {
+            "value": "mean-app-vm01"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B2ms"
+        },
+        "adminUsername": {
+            "value": "mean-app-user"
+        },
+        "virtualNetworkName": {
+            "value": "mean-app-rg-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "mean-app-vm0168"
+        },
+        "networkSecurityGroupName": {
+            "value": "mean-app-vm01-nsg"
+        },
+        "adminPublicKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDmEMWrQxRPSK1qc0i2m3Lzfw9AsjQRX0RL0G5AU8pxYVxkBQTFUXv/175ucRX0tMw5wjRfJ29X7eP+JxrvupMRRG/UvbEzmL/oXumYv7ayYvbvfS/RNeeJ9wxUdH2A8Z6dFXIIoAzRIALLdLpt7tSmtkBEcJfUzF4dZ6ctWAlCaIJLN64vIJA3ceV2WFqKSrqHrWi7Nz6+qIzw0bd3SNivUPJgSTe+ldGQj/jBd0T6bK+fq1Ace3761Lt8Rf/nle5Vr/n1BdZg6FyWNupdgFLATI7Oe9GRuZEZADt7RiDpLRpSQvaY7x0JxdqGyqAyyMZNNP2pzuFIKjJyvM7sOrtRsIAx6wD0vwT/R2N64/Vuh8odYui09OdeyjJukaA8U2ZPqz94u0Sp2NvqFTjkzkvBS4vOUgPuu9N5GNzn4EddgpUHIf8t3qoJbIAUgOerv1H5qRTidIkgjwa93+cbwk2DDRHBhG/0DItVOO/49e71DEvw50AFrbuHflU1RDTA4OREDtCET9WwBj87tNkRcjtf5SmCgloz2JDxXMFkB6BuRO7/Dq7862RVUiXWYwZe2vCiXI0B3n8m2eZgYcGsVBdEjW4ZWfWoR6LNtoWzSXQnFOhcXr6cKjTyrEZoCBG7A/UdTOJ0Uw3n9fFcSHT/fPrbkq0oMVX7Ahro8GM8r+fFqQ=="
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "meanapprgdiag623"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountKind": {
+            "value": "Storage"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/meanapprgdiag623"
+        },
+        "addressPrefix": {
+            "value": "10.1.1.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.1.1.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "mean-app-vm01-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "autoShutdownStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownTime": {
+            "value": "19:00"
+        },
+        "autoShutdownTimeZone": {
+            "value": "UTC"
+        },
+        "autoShutdownNotificationStatus": {
+            "value": "Disabled"
+        }
+    }
+}
