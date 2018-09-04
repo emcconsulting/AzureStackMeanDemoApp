@@ -1,0 +1,2 @@
+.\deploy.ps1 -subscriptionId "e6fcea0b-3763-447d-bc49-b568f6716972"
+-resourceGroupName "mean-app-rg" -deploymentName "DeployVm01"
